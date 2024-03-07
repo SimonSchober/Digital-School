@@ -1,0 +1,145 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Level1Tiled.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Alle Dateien (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 0.015625,
+            "scaleInEditor": 1
+        },
+        "#terrain": {
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx": {
+            "expandedObjectLayers": [
+                5,
+                7
+            ],
+            "scale": 0.125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 4948,
+                "y": 2380
+            }
+        },
+        "Level1Tiled.tmx#Saw": {
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#Spike": {
+            "scaleInDock": 5.5
+        },
+        "Level1Tiled.tmx#WelcomeInTiled": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#background_Yellow": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#background_blue": {
+            "scaleInDock": 1
+        },
+        "Level1Tiled.tmx#background_grey": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#background_yellow": {
+            "scaleInDock": 1
+        },
+        "Level1Tiled.tmx#fire": {
+            "scaleInDock": 1
+        },
+        "Level1Tiled.tmx#saw": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#spike": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#tileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#tileset_collide": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Level1Tiled.tmx#trampoline": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "background_blue.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level1.json": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 9317,
+                "y": -355
+            }
+        },
+        "level1.json#background_blue": {
+            "scaleInDock": 1
+        },
+        "level1.json#background_grey": {
+            "scaleInDock": 1
+        },
+        "level1.json#background_yellow": {
+            "scaleInDock": 1
+        },
+        "level1.json#fire": {
+            "scaleInDock": 1
+        },
+        "level1.json#saw": {
+            "scaleInDock": 1
+        },
+        "level1.json#spike": {
+            "scaleInDock": 1
+        },
+        "level1.json#tileset": {
+            "scaleInDock": 1
+        },
+        "level1.json#tileset_collide": {
+            "scaleInDock": 1
+        },
+        "level1.json#trampoline": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/simon/OneDrive/Dokumente/Digital-School/NinjaParkour/assets/tiled",
+    "last.imagePath": "C:/Users/simon/OneDrive/Dokumente/Digital-School/NinjaParkour/assets/PixelAdventure/Traps/Trampoline",
+    "map.height": 60,
+    "map.lastUsedExportFilter": "JSON-Kartendateien (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 60,
+    "openFiles": [
+        "Level1Tiled.tmx",
+        "level1.json"
+    ],
+    "project": "unbenannt.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "level1.json",
+        "Level1Tiled.tmx",
+        "background_blue.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 28,
+        "width": 28
+    }
+}

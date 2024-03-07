@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clicker Game mit Shop</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #score {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    #shop {
+        display: inline-block;
+        text-align: left;
+    }
+    #shop button {
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+    <h1>Clicker Game mit Shop</h1>
+    <p>Klicke auf den Button, um Punkte zu verdienen:</p>
+    <button id="clickButton">Klick mich!</button>
+    <p id="score">Punkte: <span id="points">0</span></p>
+    <div id="shop">
+        <h2>Shop</h2>
+        <button onclick="buyItem(5)">Upgrade (+1 pro Klick) - 5 Punkte</button><br>
+        <button onclick="buyItem(10)">Super Upgrade (+2 pro Klick) - 10 Punkte</button><br>
+    </div>
+
+    <script>
+        let points = 0;
+        let clickValue = 1;
+
+        function updateScore() {
+            document.getElementById("points").textContent = points;
+        }
+
+        function clickButton() {
+            points += clickValue;
+            updateScore();
+        }
+
+        function buyItem(cost) {
+            if (points >= cost) {
+                points -= cost;
+                clickValue += (cost === 5 ? 1 : 2);
+                updateScore();
+                alert("Upgrade gekauft!");
+            } else {
+                alert("Nicht genügend Punkte!");
+            }
+        }
+
+        document.getElementById("clickButton").addEventListener("click", clickButton);
+    </script>
+</body>
+</html>

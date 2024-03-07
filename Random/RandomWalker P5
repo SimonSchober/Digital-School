@@ -1,0 +1,95 @@
+var speed = 6;
+var x = 300;
+var y = 200;
+
+function setup() {
+  createCanvas(600, 400);
+}
+
+
+function draw() {
+  //background(240);
+  var c = color(rndInt(0, 255), rndInt(0, 255), rndInt(0, 255), 254);
+  fill(c);
+  //stroke(rndInt(0, 255), rndInt(0, 255), rndInt(0, 255));
+  strokeWeight(0);
+  
+  var random = rndInt(1, 4);
+  //speed = rndInt(1, 20);
+  if(random === 1) {
+      y = y - speed;
+  } else if(random === 2) {
+      y = y + speed;
+  } else if(random === 3) {
+      x = x + speed;
+  } else if(random === 4) {
+      x = x - speed;
+  }
+  
+  if(y < 0) {
+    y = height;
+  } else if(y > height) {
+    y = 0;
+  }
+  
+  if(x < 0) {
+    x = width;
+  } else if(x > width) {
+    x = 0;
+  }
+ 
+  rect(x, y, 6, 6);
+}
+
+
+function rndInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+} 
+
+
+
+
+ Mein Code p5
+
+ var speed= 4;
+var x = 300;
+var y = 20;
+
+
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+
+
+  
+  stroke(200, 100, 0)
+  strokeWeight(2);
+
+var random = rndInt (1, 4);
+if(random === 1){
+     
+    y = y - speed;
+}   else if  (random === 2){
+    y = y + speed;
+}   else if  (random === 3){
+    x = x + speed;
+}   else if  (random === 4){
+    x = x - speed;
+}
+
+
+   
+   rect(x,y,40,40);
+
+}
+
+function rndInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        } 
+
+
+  <p>dasist p5</p>
+
+        https://editor.p5js.org/
