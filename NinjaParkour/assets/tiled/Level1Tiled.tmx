@@ -1287,7 +1287,7 @@
   <object id="6" gid="486" x="518.333" y="1099" width="38" height="38"/>
   <object id="82" gid="486" x="4998.33" y="689" width="38" height="38"/>
  </objectgroup>
- <objectgroup id="7" name="trampoline">
+ <objectgroup id="7" name="trampolines">
   <object id="78" gid="541" x="1133" y="816.5" width="28" height="28"/>
   <object id="79" gid="541" x="604.5" y="1120" width="28" height="28"/>
   <object id="80" gid="541" x="3787.45" y="1215.82" width="28" height="28"/>

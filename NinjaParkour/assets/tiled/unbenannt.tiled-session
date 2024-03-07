@@ -18,14 +18,14 @@
         },
         "Level1Tiled.tmx": {
             "expandedObjectLayers": [
-                5,
-                7
+                7,
+                5
             ],
             "scale": 0.125,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 4948,
-                "y": 2380
+                "x": 3524,
+                "y": 636
             }
         },
         "Level1Tiled.tmx#Saw": {
@@ -84,8 +84,8 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 9317,
-                "y": -355
+                "x": 3999,
+                "y": 641
             }
         },
         "level1.json#background_blue": {
