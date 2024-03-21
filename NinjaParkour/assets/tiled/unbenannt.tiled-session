@@ -21,11 +21,11 @@
                 7,
                 5
             ],
-            "scale": 0.125,
+            "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 3524,
-                "y": 636
+                "x": 3213.5,
+                "y": 639.6666666666666
             }
         },
         "Level1Tiled.tmx#Saw": {
@@ -84,8 +84,8 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 3179,
-                "y": 619
+                "x": 3199,
+                "y": 640
             }
         },
         "level1.json#background_blue": {
